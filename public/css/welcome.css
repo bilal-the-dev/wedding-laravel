@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo a {
+    color: #f44336;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    background-color: #333; /* Dark background for the nav */
+    padding: 10px 20px; /* Padding around the nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Space between items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+.actions {
+    display: flex; /* Use Flexbox for actions */
+    align-items: center; /* Center items vertically */
+}
+
+.actions button {
+    background-color: #f44336; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 5px; /* Rounded corners for the button */
+}
+
+.actions button:hover {
+    background-color: #b30000; /* Darker blue on hover */
+}
+
+.user-icon {
+    display: inline-block; /* Display user icon inline */
+    width: 170px; /* Width of the user icon */
+    height: 30px; /* Height of the user icon */
+    background-image: url("path/to/user-icon.png"); /* Replace with actual icon path */
+    background-size: cover; /* Cover the entire div */
+    margin-left: 10px; /* Space between button and icon */
+}
+
+.hero {
+    background: url("hero-image.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.category {
+    padding: 50px 0;
+}
+
+.venue-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.venue-card {
+    width: 280px; /* Width of the user icon */
+
+    background: #f4f4f4;
+}
+button {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 45%;
+}
+button:hover {
+    opacity: 0.9;
+}
